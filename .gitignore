@@ -1,0 +1,13 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Go build outputs
+/bin/
+*.exe
+*.test
+coverage.out
+
+
+/request.md

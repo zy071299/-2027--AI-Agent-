@@ -1,0 +1,26 @@
+{
+  "answer": "现有资料无法回答。",
+  "status": "insufficient",
+  "gap": "未找到相关资料",
+  "citations": [],
+  "trace": [
+    {
+      "action": {
+        "tool": "search",
+        "arg": "明天会下雨吗",
+        "reason": "按问题主题检索，指代追问参考历史"
+      },
+      "observation": []
+    },
+    {
+      "action": {
+        "tool": "finish",
+        "arg": "",
+        "reason": "检索无命中",
+        "answer": "现有资料无法回答。",
+        "status": "insufficient",
+        "gap": "未找到相关资料"
+      }
+    }
+  ]
+}

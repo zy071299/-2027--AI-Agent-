@@ -1,0 +1,44 @@
+{
+  "answer": "",
+  "status": "tool_error",
+  "gap": "工具失败：模拟服务不可用",
+  "citations": [],
+  "trace": [
+    {
+      "action": {
+        "tool": "search",
+        "arg": "报销期限",
+        "reason": "按问题主题检索，指代追问参考历史"
+      },
+      "observation": [
+        {
+          "id": "D01",
+          "date": "2026-01-01",
+          "tags": "报销 费用 票据 提交 时限 期限 发票"
+        },
+        {
+          "id": "D02",
+          "date": "2026-02-01",
+          "tags": "报销 费用 票据 提交 时限 期限 发票"
+        }
+      ]
+    },
+    {
+      "action": {
+        "tool": "read",
+        "arg": "D01",
+        "reason": "核对候选原文"
+      },
+      "observation": "工具失败：模拟服务不可用"
+    },
+    {
+      "action": {
+        "tool": "finish",
+        "arg": "",
+        "reason": "工具未返回可用证据",
+        "status": "tool_error",
+        "gap": "工具失败：模拟服务不可用"
+      }
+    }
+  ]
+}

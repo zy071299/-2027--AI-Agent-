@@ -1,0 +1,32 @@
+=== RUN   TestRemoteLoop
+--- PASS: TestRemoteLoop (0.01s)
+=== RUN   TestExecutionGuards
+--- PASS: TestExecutionGuards (0.00s)
+=== RUN   TestRemoteFailures
+=== RUN   TestRemoteFailures/invalid_action
+=== RUN   TestRemoteFailures/timeout
+--- PASS: TestRemoteFailures (1.00s)
+    --- PASS: TestRemoteFailures/invalid_action (0.00s)
+    --- PASS: TestRemoteFailures/timeout (1.00s)
+PASS
+ok  	knowledge-agent/src	4.787s
+=== RUN   TestCLI
+=== RUN   TestCLI/normal
+=== RUN   TestCLI/conflict
+=== RUN   TestCLI/outside
+=== RUN   TestCLI/paraphrase
+=== RUN   TestCLI/followup
+=== RUN   TestCLI/followup_without_history
+=== RUN   TestCLI/failure
+--- PASS: TestCLI (5.07s)
+    --- PASS: TestCLI/normal (0.57s)
+    --- PASS: TestCLI/conflict (0.58s)
+    --- PASS: TestCLI/outside (1.52s)
+    --- PASS: TestCLI/paraphrase (0.58s)
+    --- PASS: TestCLI/followup (0.65s)
+    --- PASS: TestCLI/followup_without_history (0.59s)
+    --- PASS: TestCLI/failure (0.59s)
+=== RUN   TestDocumentChanges
+--- PASS: TestDocumentChanges (1.70s)
+PASS
+ok  	knowledge-agent/tests	7.975s
